@@ -1,13 +1,30 @@
+
 body {
     background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.container{
+    display: grid;
+    place-items: center;
 }
 .post{
+    justify-content: center;
     background-color: white;
+    width: 500px;
+}
+.post-body{
+justify-content: center;
 }
 .post-header{
-    display: flex;
+   display: flex;
+    align-items: center;
 }
 .post-icons{
-    display: flex;
+    justify-content: center;
+    height:20px;
 }
-
