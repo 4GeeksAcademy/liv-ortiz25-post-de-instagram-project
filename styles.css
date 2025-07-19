@@ -1,6 +1,6 @@
 
 body {
-    background-color: black;
+  background-color: black;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -8,16 +8,16 @@ body {
   font-variation-settings:
     "wdth" 100;
 }
-.container{
-    display: grid;
-    place-items: center;
+.container {
+    display: flex;
+    place-self: center;
 }
-.post{
+.post {
     justify-content: center;
     background-color: white;
     width: 400px;
 }
-.post-body{
+.post-body {
     display:flex;
     flex-wrap: wrap;
    margin: 10px;
@@ -26,19 +26,23 @@ body {
 .post-header{
    display: flex;
     align-items: center;
-    justify-content: space-between;
     margin: 10px;
     height: 50px;
+    gap: 270px;
 }
-.post-icons{
+.icon-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.post-icons {
     display: flex;
     align-items: center;
+    gap:275px
+} 
+.left-icons{ 
+    display: flex;
     flex-direction: row;
-    gap:2px
-}
-.dots{
-    padding-left: 270px
-}
-.bookmark{
-    padding-left: 280px
-}
+    align-items: center;
+    gap: 5px;}
